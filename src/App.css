@@ -3,7 +3,8 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  margin-top: -100px; 
+  height: 80vmin;
   pointer-events: none;
 }
 
@@ -14,7 +15,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #000000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +36,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Estilo para o texto de resposta */
+.TextoResposta {
+  color: white; /* Cor do texto */
+  font-size: 12px; /* Ajuste o tamanho conforme necessário */
+}
+
+.Informe {
+  margin-top: 100px; 
+}
+
+/* Estilo para o botão de Falar */
+.BotaoFalar {
+
+  background-color: black; /* Cor de fundo do botão */
+  color: white; /* Cor do texto do botão */
+  padding: 10px 20px; /* Ajuste o preenchimento conforme necessário */
+  font-size: 16px; /* Ajuste o tamanho conforme necessário */
+  margin-top: 20px; /* Adicione margem conforme necessário */
+  cursor: pointer;
+  border: 1px solid #14667c; 
+  border-radius: 5px;
+  display: inline-block;
 }
